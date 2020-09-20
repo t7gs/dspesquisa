@@ -8,19 +8,21 @@ import CreateRecord from './pages/CreateRecord';
 const Stack = createStackNavigator();
 
 const Routes = () => {
-    return(
-        <NavigationContainer>
-<Stack.Navigator 
-headerMode="none"
-screenOptions={{cardStyle:{
-    backgroundColor:'#0B1F34'
-}}}
->
-    <Stack.Screen name="Home" component={Home} />
-    <Stack.Screen name="CreateRecord" component={CreateRecord} />
-</Stack.Navigator>
-        </NavigationContainer>
-    )
+    return (
+      <NavigationContainer>
+        <Stack.Navigator
+          headerMode="none"
+          screenOptions={{
+            cardStyle: {
+              backgroundColor: "#0B1F34",
+            },
+          }}
+        >
+          <Stack.Screen name="Home" component={Home} />
+          <Stack.Screen name="CreateRecord" component={CreateRecord} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    );
 };
 
 export default Routes;
