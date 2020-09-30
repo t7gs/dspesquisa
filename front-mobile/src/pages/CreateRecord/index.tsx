@@ -13,10 +13,10 @@ const placeholder = {
   value: null,
 };
 
-const BASE_URL = "http://192.168.1.67:8080";
+const BASE_URL = "https://sds1-tiagor.herokuapp.com";
 
 const mapSelectValues = (games: Game[]) => {
-  return games.map((game) => ({
+  return games.map(game => ({
     ...game,
     label: game.title,
     value: game.id,
@@ -102,7 +102,7 @@ const CreateRecord = () => {
           />
         </View>
         <RNPickerSelect
-          onValueChange={(value) => {
+          onValueChange={value => {
             setSelectedGame(value);
           }}
           placeholder={placeholder}
