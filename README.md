@@ -2,7 +2,7 @@
 
 
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
-
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/t7gs/dspesquisa/blob/master/LICENSE)
 ---
 
 <p align="center"> Escolha seu jogo preferido
